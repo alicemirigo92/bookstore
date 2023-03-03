@@ -10,10 +10,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px auto;
+  margin: 55px auto;
   width: 100%;
-  max-width: 85%;
-  padding: 0 20px;
+  max-width: 80%;
+  padding: 0 30px;
   box-sizing: border-box;
 }
 
@@ -27,15 +27,15 @@
 .booklist-item {
   display: flex;
   justify-content: space-between;
-  padding: 40px;
+  padding: 41px;
   background-color: #fff;
-  border: 0.5px solid rgb(206, 192, 192);
-  margin: 10px 0;
+  border: 0.6px solid rgb(206, 192, 192);
+  margin: 11px 0;
 }
 
 .booklist-item li {
   list-style: none;
-  margin: 0 10px;
+  margin: 0 11px;
   display: flex;
   justify-content: space-between;
 }
@@ -61,7 +61,7 @@
 .interact {
   display: flex;
   justify-content: space-between;
-  margin: 10px 0;
+  margin: 11px 0;
   color: #0290ff;
   font-size: 1.2rem;
 }
@@ -80,7 +80,7 @@
   gap: 40px;
 }
 
-/* make the progress-bar round */
+/* progress-bar round */
 .progress-bar {
   position: relative;
 }
@@ -88,8 +88,8 @@
 .progress-bar-outer {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
-  padding: 20px;
+  border-radius: 51%;
+  padding: 22px;
 }
 
 .progress-bar-inner {
@@ -97,14 +97,14 @@
   align-items: center;
   width: 90px;
   height: 90px;
-  border-radius: 50%;
+  border-radius: 51%;
   justify-content: center;
 }
 
 circle {
   fill: none;
   stroke: #3181c7;
-  stroke-width: 8px;
+  stroke-width: 9px;
   stroke-dasharray: 202;
   stroke-dashoffset: 20;
   transition: 2s linear;
@@ -153,15 +153,15 @@ svg {
 .chapters {
   font-size: 1.2rem;
   line-height: 20px;
-  color: rgb(78, 77, 77);
+  color: rgb(102, 97, 97);
 }
 
 button {
-  background-color: #0290ff;
+  background-color: #1a8be2;
   color: #fff;
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 11px 21px;
+  border-radius: 6px;
   font-size: 1rem;
   font-weight: 400;
   cursor: pointer;

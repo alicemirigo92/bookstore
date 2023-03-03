@@ -3,10 +3,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 50px auto;
-  padding: 10px 20px;
+  margin: 51px auto;
+  padding: 11px 21px;
   font-size: 2rem;
   background-color: white;
   color: black;
-  border: 0.5px solid rgb(206, 192, 192);
+  border: 0.5px solid rgb(193, 182, 182);
 }

@@ -18,7 +18,7 @@ nav {
 .Logo {
   font-size: 3rem;
   font-weight: 700;
-  color: #0290ff;
+  color: #0d82dd;
 }
 
 .navbar {
@@ -30,9 +30,9 @@ nav {
 
 .list {
   text-decoration: none;
-  color: rgb(107, 106, 106);
+  color: rgb(111, 105, 105);
 }
 
 .active {
-  color: #343333;
+  color: #4e4a4a;
 }
