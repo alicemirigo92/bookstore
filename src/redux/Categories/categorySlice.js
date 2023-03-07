@@ -1,6 +1,6 @@
 import { createReducer } from '@reduxjs/toolkit';
 
-export const CHECK_STATUS = 'BookStore-App/CategorIES/CHECK_STATUS';
+export const SEE_STATUS = 'BookStore-App/CategorIES/CHECK_STATUS';
 
 const initialState = {
   status: '',
@@ -8,7 +8,7 @@ const initialState = {
 
 const categoryReducer = createReducer(initialState, (construct) => {
   construct
-    .addCase(CHECK_STATUS, (state, action) => {
+    .addCase(SEE_STATUS, (state, action) => {
       const newState = { ...state, status: action.payload };
       return newState;
     });
