@@ -10,9 +10,9 @@ function BookItem({ title, author }) {
         <div className="author">{author}</div>
         <div className="interact">
           <div className="comment">Comments</div>
-          <span className="vr" />
+          <span className="hrr" />
           <div className="remove">Remove</div>
-          <span className="vr" />
+          <span className="hrr" />
           <div className="edit">Edit</div>
         </div>
       </div>
