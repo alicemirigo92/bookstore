@@ -16,7 +16,7 @@ function AddBook() {
     e.preventDefault();
     const newBook = {
       ...book,
-      id: uuidv4()
+      id: uuidv4(),
     };
     dispatch(addBook(newBook));
     setBook({ title: '', author: '' });
