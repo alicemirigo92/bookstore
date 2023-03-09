@@ -12,8 +12,8 @@
   align-items: center;
   margin: 55px auto;
   width: 100%;
-  max-width: 80%;
-  padding: 0 30px;
+  max-width: 90%;
+  padding: 0 21px;
   box-sizing: border-box;
 }
 
@@ -24,18 +24,18 @@
   width: 100%;
 }
 
-.booklist-item {
+.list-item {
   display: flex;
   justify-content: space-between;
-  padding: 41px;
-  background-color: #fff;
-  border: 0.6px solid rgb(227, 207, 207);
+  padding: 40px;
+  background-color: white;
+  border: 0.5px solid rgb(210, 181, 181);
   margin: 11px 0;
 }
 
-.booklist-item li {
+.list-item li {
   list-style: none;
-  margin: 0 11px;
+  margin: 0 10px;
   display: flex;
   justify-content: space-between;
 }
@@ -43,7 +43,7 @@
 .genre {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #929292;
+  color: #b0aaaa;
 }
 
 .title {
@@ -55,56 +55,55 @@
 .author {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #0290ff;
+  color: #1181d6;
 }
 
 .interact {
   display: flex;
   justify-content: space-between;
-  margin: 11px 0;
-  color: #0290ff;
+  margin: 9px 0;
+  color: #1377c4;
   font-size: 1.2rem;
 }
 
-.vr {
-  border-left: 1px solid rgba(190, 189, 189, 0.645);
+.brn {
+  border-left: 1px solid rgba(214, 198, 198, 0.645);
   height: 2rem;
   margin: 0 1rem;
 }
 
-.progress {
+.pace {
   display: flex;
   position: relative;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 41px;
 }
 
-/* progress-bar round */
-.progress-bar {
+.pace-bar {
   position: relative;
 }
 
-.progress-bar-outer {
+.pace-bar-outer {
   width: 100px;
   height: 100px;
-  border-radius: 51%;
-  padding: 22px;
+  border-radius: 50%;
+  padding: 19px;
 }
 
-.progress-bar-inner {
+.pace-bar-inner {
   display: flex;
   align-items: center;
   width: 90px;
-  height: 90px;
-  border-radius: 51%;
+  height: 80px;
+  border-radius: 50%;
   justify-content: center;
 }
 
 circle {
   fill: none;
-  stroke: #3181c7;
-  stroke-width: 9px;
+  stroke: #054b88;
+  stroke-width: 8px;
   stroke-dasharray: 202;
   stroke-dashoffset: 20;
   transition: 2s linear;
@@ -117,19 +116,19 @@ svg {
   z-index: 1;
 }
 
-.progress-percentage {
+.pace-percentage {
   display: flex;
   flex-direction: column;
   font-size: 2.4rem;
 }
 
-.progress-percentage span {
+.pace-percentage span {
   font-size: 1.2rem;
   font-weight: 700;
   color: #413d3d;
 }
 
-.vrr {
+.bxwn {
   border-left: 1px solid rgba(190, 189, 189, 0.7);
   height: 7rem;
   margin: 0 1rem;
@@ -153,15 +152,15 @@ svg {
 .chapters {
   font-size: 1.2rem;
   line-height: 20px;
-  color: rgb(102, 97, 97);
+  color: rgb(78, 77, 77);
 }
 
 button {
-  background-color: #1a8be2;
+  background-color: #0290ff;
   color: #fff;
   border: none;
-  padding: 11px 21px;
-  border-radius: 6px;
+  padding: 10px 20px;
+  border-radius: 5px;
   font-size: 1rem;
   font-weight: 400;
   cursor: pointer;
