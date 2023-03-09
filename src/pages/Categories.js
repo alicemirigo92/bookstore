@@ -1,14 +1,22 @@
 import React from 'react';
-import BookList from '../components/BookList';
-import AddBook from '../components/AddBook';
+import '../styles/Categories.css';
+import { useDispatch, useSelector } from 'react-redux';
+import { checkStatus } from '../redux/Categories/Category';
 
-function Books() {
+function Categories() {
+  const categories = useSelector((state) => state.category.categories);
+  const dispatch = useDispatch();
+  const handleClick = () => {
+    dispatch(checkStatus());
+  };
   return (
-    <div>
-      <BookList />
-      <AddBook />
+    <div className="categories">
+      <h2>{categories}</h2>
+      <button type="button" className="update" onClick={handleClick}>
+        Check Status
+      </button>
     </div>
   );
 }
 
-export default Books;
+export default Categories;

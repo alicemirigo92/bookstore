@@ -1,36 +1,36 @@
-.addbook {
+.book {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  max-width: 86%;
+  max-width: 85%;
   margin: 0 175px;
   margin-bottom: 21px;
-  background-color: #fafafa;
+  background-color: white;
 }
 
-.addbook-title {
-  font-size: 2rem;
+.book-title {
+  font-size: 1.5rem;
   font-weight: 700;
   color: #1e1e1e;
-  margin: 20px 0;
+  margin: 21px 0;
 }
 
-.addbook-form {
+.book-form {
   display: flex;
   width: 100%;
   align-items: center;
 }
 
-.addbook-form-item {
-  margin-right: 20px;
+.book-form-item {
+  margin-right: 21px;
 }
 
-.addbook input {
-  padding: 21px;
-  margin: 11px 0;
-  border: 1px solid #f0e2e2;
-  border-radius: 5px;
+input {
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid #dccdcd;
+  border-radius: 4px;
   box-sizing: border-box;
-  width: 550px;
+  width: 555px;
 }
