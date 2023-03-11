@@ -10,10 +10,10 @@ function Navigation() {
         <div className="Logo">Bookstore CMS</div>
         <div className="navbar">
           <NavLink to="/" exact="true" className="list active">
-            Books
+            BOOKS
           </NavLink>
           <NavLink to="/categories" className="list">
-            Categories
+            CATEGORIES
           </NavLink>
         </div>
       </div>

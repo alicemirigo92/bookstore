@@ -4,7 +4,8 @@ nav {
   justify-content: space-between;
   background-color: #fff;
   margin: 5% 5%;
-  padding: 0 40px;
+  padding: 10px 40px;
+  font-family: 'Montserrat', sans-serif;
   box-shadow: 0 0 10px 5px rgba(238, 239, 243, 0.8);
 }
 

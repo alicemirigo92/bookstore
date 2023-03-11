@@ -1,13 +1,3 @@
-.books {
-  background-color: #fafafa;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  height: auto;
-  margin: -75px 5%;
-  padding: 80px;
-}
-
 .book {
   display: flex;
   justify-content: space-between;
@@ -27,6 +17,7 @@
 }
 
 .list-item {
+  font-family: 'Montserrat', sans-serif;
   align-items: center;
   background-color: #fff;
   box-shadow: 0 0 15px 10px rgba(238, 239, 243, 0.8);
@@ -41,24 +32,28 @@
   margin: 0 10px;
   display: flex;
   justify-content: space-between;
+  font-family: 'RobotoSlab', sans-serif;
 }
 
 .genre {
   font-size: 1.2rem;
   font-weight: 700;
   color: #b0aaaa;
+  font-family: 'RobotoSlab', sans-serif;
 }
 
 .title {
   font-size: 1.5rem;
   font-weight: 700;
   color: #1e1e1e;
+  font-family: 'RobotoSlab', sans-serif;
 }
 
 .author {
   font-size: 1.2rem;
   font-weight: 700;
   color: #1181d6;
+  font-family: 'RobotoSlab', sans-serif;
 }
 
 .interact {
@@ -84,39 +79,32 @@
 }
 
 .pace-bar {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  height: 6rem;
+  padding: 0.64rem 3rem 0.64rem 3rem;
 }
 
 .pace-bar-outer {
-  width: 100px;
-  height: 100px;
+  width: 4.3rem;
+  height: 4.3rem;
   border-radius: 50%;
-  padding: 19px;
+  border: 4px solid;
+  position: absolute;
+  transform: rotate(45deg);
+  border-image: initial;
+  border-color: rgb(48, 123, 190) rgb(48, 123, 190) rgb(48, 123, 190) rgb(232, 232, 232);
 }
 
 .pace-bar-inner {
   display: flex;
   align-items: center;
   width: 90px;
-  height: 80px;
+  height: 90px;
   border-radius: 50%;
   justify-content: center;
-}
-
-circle {
-  fill: none;
-  stroke: #054b88;
-  stroke-width: 8px;
-  stroke-dasharray: 202;
-  stroke-dashoffset: 20;
-  transition: 2s linear;
-}
-
-svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
 }
 
 .pace-percentage {
@@ -129,6 +117,13 @@ svg {
   font-size: 1.2rem;
   font-weight: 700;
   color: #413d3d;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .bxwn {
