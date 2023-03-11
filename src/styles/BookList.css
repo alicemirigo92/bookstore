@@ -1,16 +1,18 @@
 .books {
   background-color: #fafafa;
-  margin: 0;
-  width: 100%;
-  height: 100vh;
-  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: auto;
+  margin: -75px 5%;
+  padding: 80px;
 }
 
 .book {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 55px auto;
+  margin: 40px auto;
   width: 100%;
   max-width: 90%;
   padding: 0 21px;
@@ -25,12 +27,13 @@
 }
 
 .list-item {
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 15px 10px rgba(238, 239, 243, 0.8);
   display: flex;
-  justify-content: space-between;
-  padding: 40px;
-  background-color: white;
-  border: 0.5px solid rgb(210, 181, 181);
-  margin: 11px 0;
+  gap: 10%;
+  margin-bottom: 20px;
+  padding: 15px 20% 15px 45px;
 }
 
 .list-item li {
