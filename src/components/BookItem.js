@@ -18,7 +18,7 @@ function BookItem(props) {
         <div className="interact">
           <div className="comment">Comments</div>
           <span className="brn" />
-          <button type="button" onClick={handleRemoveBook} className="remove">Remove</button>
+          <button type="button" id="remove-btn" onClick={handleRemoveBook} className="remove">Remove</button>
           <span className="brn" />
           <div className="edit">Edit</div>
         </div>

@@ -50,7 +50,7 @@
   font-size: 1.5rem;
   font-weight: 700;
   color: #1e1e1e;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .author {
@@ -58,6 +58,11 @@
   font-weight: 700;
   color: #1181d6;
   font-family: 'RobotoSlab', sans-serif;
+}
+
+#remove-btn {
+  background-color: white;
+  color: #1377c4;
 }
 
 .interact {
