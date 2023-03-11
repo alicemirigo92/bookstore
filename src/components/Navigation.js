@@ -7,9 +7,9 @@ function Navigation() {
   return (
     <nav>
       <div className="links">
-        <div className="Logo">My Bookstore</div>
+        <div className="Logo">Bookstore CMS</div>
         <div className="navbar">
-          <NavLink to="/" exact className="list active">
+          <NavLink to="/" exact="true" className="list active">
             Books
           </NavLink>
           <NavLink to="/categories" className="list">
