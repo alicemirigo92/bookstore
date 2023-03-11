@@ -1,0 +1,24 @@
+.contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 35px 40px;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.content {
+  width: 70%;
+  max-width: 1800px;
+  margin-top: 50px;
+  background-color: #fafafa;
+}
+
+.header {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+}

@@ -18,7 +18,7 @@ function BookItem(props) {
         <div className="interact">
           <div className="comment">Comments</div>
           <span className="brn" />
-          <button type="button" onClick={handleRemoveBook} className="remove">Remove</button>
+          <button type="button" id="remove-btn" onClick={handleRemoveBook} className="remove">Remove</button>
           <span className="brn" />
           <div className="edit">Edit</div>
         </div>
@@ -28,20 +28,6 @@ function BookItem(props) {
           <div className="pace-bar-outer">
             <div className="pace-bar-inner" />
           </div>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            version="1.1"
-            width="160px"
-            height="160px"
-          >
-            <defs>
-              <linearGradient id="GradientColor">
-                <stop offset="0%" stopColor="#f50057" />
-                <stop offset="100%" stopColor="#693ab9" />
-              </linearGradient>
-            </defs>
-            <circle cx="80" cy="75" r="75" strokeLinecap="round" />
-          </svg>
         </div>
         <div className="pace-percentage">
           64%
