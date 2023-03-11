@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
 .book {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 40px auto;
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
   max-width: 90%;
   padding: 0 21px;
   box-sizing: border-box;
@@ -17,14 +21,14 @@
 }
 
 .list-item {
-  font-family: 'Montserrat', sans-serif;
   align-items: center;
+  font-family: 'Montserrat', sans-serif;
   background-color: #fff;
   box-shadow: 0 0 15px 10px rgba(238, 239, 243, 0.8);
   display: flex;
-  gap: 10%;
+  gap: 8%;
   margin-bottom: 20px;
-  padding: 15px 20% 15px 45px;
+  padding: 10px 10% 10px 40px;
 }
 
 .list-item li {
@@ -32,21 +36,21 @@
   margin: 0 10px;
   display: flex;
   justify-content: space-between;
-  font-family: 'RobotoSlab', sans-serif;
+  font-family: "Roboto Slab", sans-serif;
 }
 
 .genre {
   font-size: 1.2rem;
   font-weight: 700;
   color: #b0aaaa;
-  font-family: 'RobotoSlab', sans-serif;
+  font-family: "Roboto Slab", sans-serif;
 }
 
 .title {
   font-size: 1.5rem;
   font-weight: 700;
   color: #1e1e1e;
-  font-family: 'RobotoSlab', sans-serif;
+  font-family: "Roboto Slab", sans-serif;
 }
 
 .author {
